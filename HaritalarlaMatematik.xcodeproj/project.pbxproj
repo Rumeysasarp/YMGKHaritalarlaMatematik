@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		63C44EB22D05AD83001B83DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63C44E932D05AD82001B83DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63C44E9A2D05AD82001B83DF;
+			remoteInfo = HaritalarlaMatematik;
+		};
+		63C44EBC2D05AD83001B83DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63C44E932D05AD82001B83DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63C44E9A2D05AD82001B83DF;
+			remoteInfo = HaritalarlaMatematik;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		63B2ABEB2D05B2BD00E63AE9 /* harita.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = harita.png; sourceTree = "<group>"; };
+		63C44E9B2D05AD82001B83DF /* HaritalarlaMatematik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HaritalarlaMatematik.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63C44EB12D05AD83001B83DF /* HaritalarlaMatematikTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaritalarlaMatematikTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63C44EBB2D05AD83001B83DF /* HaritalarlaMatematikUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaritalarlaMatematikUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		63C44EC32D05AD83001B83DF /* Exceptions for "HaritalarlaMatematik" folder in "HaritalarlaMatematik" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 63C44E9A2D05AD82001B83DF /* HaritalarlaMatematik */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		63C44E9D2D05AD82001B83DF /* HaritalarlaMatematik */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				63C44EC32D05AD83001B83DF /* Exceptions for "HaritalarlaMatematik" folder in "HaritalarlaMatematik" target */,
+			);
+			path = HaritalarlaMatematik;
+			sourceTree = "<group>";
+		};
+		63C44EB42D05AD83001B83DF /* HaritalarlaMatematikTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HaritalarlaMatematikTests;
+			sourceTree = "<group>";
+		};
+		63C44EBE2D05AD83001B83DF /* HaritalarlaMatematikUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HaritalarlaMatematikUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63C44E982D05AD82001B83DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63C44EAE2D05AD83001B83DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63C44EB82D05AD83001B83DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63B2ABEA2D05B29900E63AE9 /* ARResources */ = {
+			isa = PBXGroup;
+			children = (
+				63B2ABEB2D05B2BD00E63AE9 /* harita.png */,
+			);
+			path = ARResources;
+			sourceTree = "<group>";
+		};
+		63C44E922D05AD82001B83DF = {
+			isa = PBXGroup;
+			children = (
+				63B2ABEA2D05B29900E63AE9 /* ARResources */,
+				63C44E9D2D05AD82001B83DF /* HaritalarlaMatematik */,
+				63C44EB42D05AD83001B83DF /* HaritalarlaMatematikTests */,
+				63C44EBE2D05AD83001B83DF /* HaritalarlaMatematikUITests */,
+				63C44E9C2D05AD82001B83DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63C44E9C2D05AD82001B83DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63C44E9B2D05AD82001B83DF /* HaritalarlaMatematik.app */,
+				63C44EB12D05AD83001B83DF /* HaritalarlaMatematikTests.xctest */,
+				63C44EBB2D05AD83001B83DF /* HaritalarlaMatematikUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63C44E9A2D05AD82001B83DF /* HaritalarlaMatematik */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63C44EC42D05AD83001B83DF /* Build configuration list for PBXNativeTarget "HaritalarlaMatematik" */;
+			buildPhases = (
+				63C44E972D05AD82001B83DF /* Sources */,
+				63C44E982D05AD82001B83DF /* Frameworks */,
+				63C44E992D05AD82001B83DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				63C44E9D2D05AD82001B83DF /* HaritalarlaMatematik */,
+			);
+			name = HaritalarlaMatematik;
+			packageProductDependencies = (
+			);
+			productName = HaritalarlaMatematik;
+			productReference = 63C44E9B2D05AD82001B83DF /* HaritalarlaMatematik.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63C44EB02D05AD83001B83DF /* HaritalarlaMatematikTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63C44EC92D05AD83001B83DF /* Build configuration list for PBXNativeTarget "HaritalarlaMatematikTests" */;
+			buildPhases = (
+				63C44EAD2D05AD83001B83DF /* Sources */,
+				63C44EAE2D05AD83001B83DF /* Frameworks */,
+				63C44EAF2D05AD83001B83DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63C44EB32D05AD83001B83DF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				63C44EB42D05AD83001B83DF /* HaritalarlaMatematikTests */,
+			);
+			name = HaritalarlaMatematikTests;
+			packageProductDependencies = (
+			);
+			productName = HaritalarlaMatematikTests;
+			productReference = 63C44EB12D05AD83001B83DF /* HaritalarlaMatematikTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		63C44EBA2D05AD83001B83DF /* HaritalarlaMatematikUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63C44ECC2D05AD83001B83DF /* Build configuration list for PBXNativeTarget "HaritalarlaMatematikUITests" */;
+			buildPhases = (
+				63C44EB72D05AD83001B83DF /* Sources */,
+				63C44EB82D05AD83001B83DF /* Frameworks */,
+				63C44EB92D05AD83001B83DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63C44EBD2D05AD83001B83DF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				63C44EBE2D05AD83001B83DF /* HaritalarlaMatematikUITests */,
+			);
+			name = HaritalarlaMatematikUITests;
+			packageProductDependencies = (
+			);
+			productName = HaritalarlaMatematikUITests;
+			productReference = 63C44EBB2D05AD83001B83DF /* HaritalarlaMatematikUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63C44E932D05AD82001B83DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					63C44E9A2D05AD82001B83DF = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					63C44EB02D05AD83001B83DF = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 63C44E9A2D05AD82001B83DF;
+					};
+					63C44EBA2D05AD83001B83DF = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 63C44E9A2D05AD82001B83DF;
+					};
+				};
+			};
+			buildConfigurationList = 63C44E962D05AD82001B83DF /* Build configuration list for PBXProject "HaritalarlaMatematik" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63C44E922D05AD82001B83DF;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 63C44E9C2D05AD82001B83DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63C44E9A2D05AD82001B83DF /* HaritalarlaMatematik */,
+				63C44EB02D05AD83001B83DF /* HaritalarlaMatematikTests */,
+				63C44EBA2D05AD83001B83DF /* HaritalarlaMatematikUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63C44E992D05AD82001B83DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63C44EAF2D05AD83001B83DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63C44EB92D05AD83001B83DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63C44E972D05AD82001B83DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63C44EAD2D05AD83001B83DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63C44EB72D05AD83001B83DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63C44EB32D05AD83001B83DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63C44E9A2D05AD82001B83DF /* HaritalarlaMatematik */;
+			targetProxy = 63C44EB22D05AD83001B83DF /* PBXContainerItemProxy */;
+		};
+		63C44EBD2D05AD83001B83DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63C44E9A2D05AD82001B83DF /* HaritalarlaMatematik */;
+			targetProxy = 63C44EBC2D05AD83001B83DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		63C44EC52D05AD83001B83DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RYS42CKKUW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HaritalarlaMatematik/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zehraoner.HaritalarlaMatematik;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63C44EC62D05AD83001B83DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RYS42CKKUW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HaritalarlaMatematik/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zehraoner.HaritalarlaMatematik;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		63C44EC72D05AD83001B83DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		63C44EC82D05AD83001B83DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63C44ECA2D05AD83001B83DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RYS42CKKUW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zehraoner.HaritalarlaMatematikTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HaritalarlaMatematik.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HaritalarlaMatematik";
+			};
+			name = Debug;
+		};
+		63C44ECB2D05AD83001B83DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RYS42CKKUW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zehraoner.HaritalarlaMatematikTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HaritalarlaMatematik.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HaritalarlaMatematik";
+			};
+			name = Release;
+		};
+		63C44ECD2D05AD83001B83DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RYS42CKKUW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zehraoner.HaritalarlaMatematikUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HaritalarlaMatematik;
+			};
+			name = Debug;
+		};
+		63C44ECE2D05AD83001B83DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RYS42CKKUW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zehraoner.HaritalarlaMatematikUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HaritalarlaMatematik;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63C44E962D05AD82001B83DF /* Build configuration list for PBXProject "HaritalarlaMatematik" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63C44EC72D05AD83001B83DF /* Debug */,
+				63C44EC82D05AD83001B83DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63C44EC42D05AD83001B83DF /* Build configuration list for PBXNativeTarget "HaritalarlaMatematik" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63C44EC52D05AD83001B83DF /* Debug */,
+				63C44EC62D05AD83001B83DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63C44EC92D05AD83001B83DF /* Build configuration list for PBXNativeTarget "HaritalarlaMatematikTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63C44ECA2D05AD83001B83DF /* Debug */,
+				63C44ECB2D05AD83001B83DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63C44ECC2D05AD83001B83DF /* Build configuration list for PBXNativeTarget "HaritalarlaMatematikUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63C44ECD2D05AD83001B83DF /* Debug */,
+				63C44ECE2D05AD83001B83DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63C44E932D05AD82001B83DF /* Project object */;
+}
